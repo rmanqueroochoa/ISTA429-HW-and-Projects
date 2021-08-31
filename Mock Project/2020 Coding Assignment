@@ -1,6 +1,0 @@
-def is_symmetric(lst):
-    for row_index in range(len(lst)):
-        for col_index in range(len(lst[0])):
-            if lst[row_index][col_index] != lst[col_index][row_index]:
-                return False
-    return True
